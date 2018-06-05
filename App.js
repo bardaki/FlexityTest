@@ -17,7 +17,7 @@ export default class MainScreen extends React.Component {
                   <SvgUri
                     width="24"
                     height="24"
-                    source={require('./assets/padnote.svg')}/>
+                    source={{uri: 'http://lindsaysh.us/wp-content/uploads/2018/06/padnote.svg'}}/>
                   </View>
                 </TouchableOpacity>
               </LinearGradient>

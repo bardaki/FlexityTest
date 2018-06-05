@@ -80,13 +80,13 @@ export default createBottomTabNavigator({
       const { routeName } = navigation.state;
       let svgUri;
       if (routeName === 'Discover') {
-        svgUri = require('../assets/explore-tool.svg');
+        svgUri = {uri: 'http://lindsaysh.us/wp-content/uploads/2018/06/explore-tool@1.5x.svg'};
       } else if (routeName === 'Training') {
-        svgUri = require('../assets/add.svg');
+        svgUri = {uri: 'http://lindsaysh.us/wp-content/uploads/2018/06/add@1.5x.svg'};
       } else if (routeName === 'Inbox') {
-        svgUri = require('../assets/inbox.svg');
+        svgUri = {uri: 'http://lindsaysh.us/wp-content/uploads/2018/06/inbox.icn@1.5x.svg'};
       } else if (routeName === 'Profile') {
-        svgUri = require('../assets/profile.svg');
+        svgUri = {uri: 'http://lindsaysh.us/wp-content/uploads/2018/06/profile_icn@1.5x-01.svg'};
       }
 
       return <View>
